@@ -1,0 +1,35 @@
+{
+  "name": "emiga-stream",
+  "version": "0.0.1",
+  "description": "Stream Anything",
+  "main": "./server/proxy.js",
+  "scripts": {
+    "start": "cd server && node proxy.js",
+    "proxy": "cd server && nodemon proxy.js",
+    "server": "cd server && nodemon server.js",
+    "dev": "concurrently \"npm run proxy\" \"npm run server\""
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  },
+  "dependencies": {
+    "concurrently": "^4.1.1",
+    "express": "^4.17.1",
+    "http-proxy": "^1.17.0",
+    "socket.io": "^2.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eminmuhammadi/emiga-stream.git"
+  },
+  "keywords": [
+    "stream",
+    "emiga-stream"
+  ],
+  "author": "Emin Muhammadi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eminmuhammadi/emiga-stream/issues"
+  },
+  "homepage": "https://github.com/eminmuhammadi/emiga-stream#readme"
+}
