@@ -16,7 +16,7 @@
     "concurrently": "^4.1.1",
     "express": "^4.17.1",
     "http-proxy": "^1.18.1",
-    "socket.io": "^2.2.0"
+    "socket.io": "^2.4.0"
   },
   "repository": {
     "type": "git",
